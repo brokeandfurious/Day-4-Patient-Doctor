@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DD011C81FAE96910072A362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD011C71FAE96910072A362 /* main.m */; };
+		9DD011D31FAE96C90072A362 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD011CF1FAE96C90072A362 /* Patient.m */; };
+		9DD011D41FAE96C90072A362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD011D01FAE96C90072A362 /* main.m */; };
+		9DD011D51FAE96C90072A362 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD011D11FAE96C90072A362 /* Doctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		9DD011C41FAE96910072A362 /* Day 4 - Patient & Doctor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day 4 - Patient & Doctor"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD011C71FAE96910072A362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DD011CE1FAE96C90072A362 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		9DD011CF1FAE96C90072A362 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		9DD011D01FAE96C90072A362 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../iOS Bootcamp Prep Course/Day 4 - Patient & Doctor/Day 4 - Patient & Doctor/main.m"; sourceTree = "<group>"; };
+		9DD011D11FAE96C90072A362 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		9DD011D21FAE96C90072A362 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		9DD011C61FAE96910072A362 /* Day 4 - Patient & Doctor */ = {
 			isa = PBXGroup;
 			children = (
-				9DD011C71FAE96910072A362 /* main.m */,
+				9DD011CE1FAE96C90072A362 /* Doctor.h */,
+				9DD011D11FAE96C90072A362 /* Doctor.m */,
+				9DD011D01FAE96C90072A362 /* main.m */,
+				9DD011D21FAE96C90072A362 /* Patient.h */,
+				9DD011CF1FAE96C90072A362 /* Patient.m */,
 			);
 			path = "Day 4 - Patient & Doctor";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD011C81FAE96910072A362 /* main.m in Sources */,
+				9DD011D41FAE96C90072A362 /* main.m in Sources */,
+				9DD011D31FAE96C90072A362 /* Patient.m in Sources */,
+				9DD011D51FAE96C90072A362 /* Doctor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
